@@ -1,0 +1,168 @@
+/*
+Theme Name: Alpha
+Theme URI:
+Author: the WordPress team
+Author URI:
+Description: Our 2019 default theme is designed to show off the power of the block editor. It features custom styles for all the default blocks, and is built so that what you see in the editor looks like what you'll see on your website. Twenty Nineteen is designed to be adaptable to a wide range of websites, whether you’re running a photo blog, launching a new business, or supporting a non-profit. Featuring ample whitespace and modern sans-serif headlines paired with classic serif body text, it's built to be beautiful on all screen sizes.
+Requires at least: 4.9.6
+Requires PHP: 5.2.4
+Version: 1.5
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags:blog,eduction
+Text Domain: alpha
+ */
+h1.heading {
+    font-family: "Arial Black";
+    width: 700px;
+    margin: auto;
+    margin-bottom: 70px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+h3.tagline{
+    font-family: Arial;
+    margin:auto;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    width: 700px;
+    text-align: center;
+}
+
+h2.post-title {
+    margin-bottom: 30px;
+}
+
+.post {
+    margin-bottom: 50px;
+}
+
+.post p{
+    font-family: "Helvetica Neue";
+    line-height: 1.7em;
+    font-size: 18px;
+}
+
+.post .row:nth-child(2) {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+
+}
+.image_size img{
+    width: 800px;
+
+
+}
+
+.post:last-child .row:nth-child(2){
+    border-bottom:none;
+}
+.post img{
+    height: auto;
+}
+.pagination-format{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.footer{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #222;
+    color:#ccc;
+}
+
+.tags li{
+    color: #3D9970;
+}
+.thumbnails-edit img{
+    width:750px;
+
+}
+.page-header{
+    background-position: center;
+    background-size:cover;
+    margin-bottom: 30px;
+    padding: 170px 0px;
+}
+.page-header h1.heading a{
+    color: #000e14;
+}
+.header-logo{
+    margin-top: 50px;
+
+}
+.header-logo img{
+    border-radius: 50px;
+}
+.error-view{
+    margin-top: 250px;
+    margin-bottom: 450px;
+}
+.khan{
+    color: #0A246A;
+}
+.dashicons{
+    font-size: 45px;
+    color: green;
+}
+.authorImage img{
+    border-radius: 48px;
+}
+.author_section{
+    border: 1px solid #ccc;
+    padding: 25px;
+}
+.rounded{
+    color: cyan;
+}
+
+.slider_image img{
+    width: 750px;
+    height: 400px;
+
+}
+.sidebar_1{
+    margin-top: 65px;
+}
+.tns-controls{
+    text-align: center;
+    color: #0A246A;
+}
+.tns-controls button{
+    background-color: turquoise;
+}
+.tns-nav{
+    text-align: center;
+}
+.authorName h1{
+    margin-right: 200px;
+}
+.testimonial_page img{
+    width: 150px;
+    height:120px;
+    border-radius: 70px;
+
+}
+.testimonial_head{
+   margin-bottom: 50px;
+    color: #0bbbe6;
+
+}
+
+.testimonial_body{
+    margin-left: 150px;
+
+}
+.team_size{
+    text-align: center;
+}
+.team_size img{
+    height: 250px;
+
+}
+.search_highlight{
+    font-weight: bold;
+    background-color: yellow;
+}
